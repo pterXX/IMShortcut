@@ -9,6 +9,7 @@
 #ifndef IMShortcutMacros_h
 #define IMShortcutMacros_h
 
+#import "IMNotificationObserver.h" //  通知
 #import "IMShortcutMethod.h"
 
 #pragma mark - # 屏幕尺寸

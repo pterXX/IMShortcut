@@ -16,6 +16,7 @@
 		84E97B302248C0AA00DF8842 /* IMShortcutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97B2F2248C0AA00DF8842 /* IMShortcutTests.m */; };
 		84E97B3B2248C0AA00DF8842 /* IMShortcutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97B3A2248C0AA00DF8842 /* IMShortcutUITests.m */; };
 		84E97B4C2248C1C300DF8842 /* IMShortcutMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97B4B2248C1C300DF8842 /* IMShortcutMethod.m */; };
+		84E97B4F2248C57A00DF8842 /* IMNotificationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97B4D2248C57A00DF8842 /* IMNotificationObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		84E97B492248C1C300DF8842 /* IMShortcutMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMShortcutMacros.h; sourceTree = "<group>"; };
 		84E97B4A2248C1C300DF8842 /* IMShortcutMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMShortcutMethod.h; sourceTree = "<group>"; };
 		84E97B4B2248C1C300DF8842 /* IMShortcutMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMShortcutMethod.m; sourceTree = "<group>"; };
+		84E97B4D2248C57A00DF8842 /* IMNotificationObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMNotificationObserver.m; sourceTree = "<group>"; };
+		84E97B4E2248C57A00DF8842 /* IMNotificationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMNotificationObserver.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 		84E97B482248C1AC00DF8842 /* IMShortcut */ = {
 			isa = PBXGroup;
 			children = (
+				84E97B4E2248C57A00DF8842 /* IMNotificationObserver.h */,
+				84E97B4D2248C57A00DF8842 /* IMNotificationObserver.m */,
 				84E97B492248C1C300DF8842 /* IMShortcutMacros.h */,
 				84E97B4A2248C1C300DF8842 /* IMShortcutMethod.h */,
 				84E97B4B2248C1C300DF8842 /* IMShortcutMethod.m */,
@@ -280,6 +285,7 @@
 				84E97B4C2248C1C300DF8842 /* IMShortcutMethod.m in Sources */,
 				84E97B1B2248C09F00DF8842 /* ViewController.m in Sources */,
 				84E97B262248C0AA00DF8842 /* main.m in Sources */,
+				84E97B4F2248C57A00DF8842 /* IMNotificationObserver.m in Sources */,
 				84E97B182248C09F00DF8842 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
