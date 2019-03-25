@@ -1,1 +1,1 @@
-# IMShortcut
+pod "IMShortcut"

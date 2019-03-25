@@ -15,6 +15,7 @@
 		84E97B262248C0AA00DF8842 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97B252248C0AA00DF8842 /* main.m */; };
 		84E97B302248C0AA00DF8842 /* IMShortcutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97B2F2248C0AA00DF8842 /* IMShortcutTests.m */; };
 		84E97B3B2248C0AA00DF8842 /* IMShortcutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97B3A2248C0AA00DF8842 /* IMShortcutUITests.m */; };
+		84E97B4C2248C1C300DF8842 /* IMShortcutMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E97B4B2248C1C300DF8842 /* IMShortcutMethod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		84E97B362248C0AA00DF8842 /* IMShortcutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMShortcutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E97B3A2248C0AA00DF8842 /* IMShortcutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMShortcutUITests.m; sourceTree = "<group>"; };
 		84E97B3C2248C0AA00DF8842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E97B492248C1C300DF8842 /* IMShortcutMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMShortcutMacros.h; sourceTree = "<group>"; };
+		84E97B4A2248C1C300DF8842 /* IMShortcutMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMShortcutMethod.h; sourceTree = "<group>"; };
+		84E97B4B2248C1C300DF8842 /* IMShortcutMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMShortcutMethod.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		84E97B152248C09F00DF8842 /* IMShortcut */ = {
 			isa = PBXGroup;
 			children = (
+				84E97B482248C1AC00DF8842 /* IMShortcut */,
 				84E97B162248C09F00DF8842 /* AppDelegate.h */,
 				84E97B172248C09F00DF8842 /* AppDelegate.m */,
 				84E97B192248C09F00DF8842 /* ViewController.h */,
@@ -130,6 +135,16 @@
 				84E97B3C2248C0AA00DF8842 /* Info.plist */,
 			);
 			path = IMShortcutUITests;
+			sourceTree = "<group>";
+		};
+		84E97B482248C1AC00DF8842 /* IMShortcut */ = {
+			isa = PBXGroup;
+			children = (
+				84E97B492248C1C300DF8842 /* IMShortcutMacros.h */,
+				84E97B4A2248C1C300DF8842 /* IMShortcutMethod.h */,
+				84E97B4B2248C1C300DF8842 /* IMShortcutMethod.m */,
+			);
+			path = IMShortcut;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E97B4C2248C1C300DF8842 /* IMShortcutMethod.m in Sources */,
 				84E97B1B2248C09F00DF8842 /* ViewController.m in Sources */,
 				84E97B262248C0AA00DF8842 /* main.m in Sources */,
 				84E97B182248C09F00DF8842 /* AppDelegate.m in Sources */,
