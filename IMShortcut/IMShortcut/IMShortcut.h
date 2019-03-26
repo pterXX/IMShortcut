@@ -11,6 +11,6 @@
 
 #import "IMShortcutMethod.h"
 #import "IMNotificationObserver.h" //  通知
-#import "IMShortcutMethod.h"
+#import "IMShortcutMacros.h"
 
 #endif /* IMShortcut_h */
